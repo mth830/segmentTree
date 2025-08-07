@@ -1,0 +1,20 @@
+{
+  "name": "segmenttree",
+  "version": "1.0.0",
+  "description": "simple segment tree implementation and tests",
+  "main": "test.js",
+  "type":"module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mth830/segmentTree.git"
+  },
+  "author": "mth830",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mth830/segmentTree/issues"
+  },
+  "homepage": "https://github.com/mth830/segmentTree#readme"
+}
