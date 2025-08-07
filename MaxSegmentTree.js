@@ -48,7 +48,7 @@ export class MaxSegmentTree {
   getMaxRec(start, end, node) {
 
     let [rangeStart, rangeEnd] = node.range;
-    if (start <= rangeStart && end >= rangeEnd || (start === rangeStart && end === rangeEnd)) {
+    if (start <= rangeStart && end >= rangeEnd) {
       return node.val;
     }
     const midPoint = Math.floor((rangeStart + rangeEnd) / 2);

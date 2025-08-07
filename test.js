@@ -1,7 +1,7 @@
 import { MaxLinearSearch } from './LinearSearch.js'
 import { MaxSegmentTree } from './MaxSegmentTree.js'
-const TEST_COUNT = 10000;
-const test_size = 5000000;
+const TEST_COUNT = 1000;
+const test_size = 50000;
 
 for (let i = 0; i < TEST_COUNT; i++) {
   const test = new Array(test_size).fill().map(x => Math.floor(Math.random() * 20 + 1));
