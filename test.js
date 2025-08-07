@@ -20,11 +20,3 @@ for (let i = 0; i < TEST_COUNT; i++) {
     console.log(test);
   }
 }
-
-// const sampleTest =  [ 3, 19, 15, 6, 4 ];
-//  let mls = new MaxLinearSearch(sampleTest);
-//  let mst = new MaxSegmentTree();
-//  mst.buildFrom(sampleTest);
-//  console.log(sampleTest)
-//  console.log(mls.findMax(4, 4))
-//  console.log(mst.getMax(4, 4))

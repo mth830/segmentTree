@@ -58,7 +58,6 @@ export class MaxSegmentTree {
     if (start <= midPoint) {
       max = this.getMaxRec(start, (Math.min(end, midPoint)), node.left);
     }
-    debugger
     if (end > midPoint) {
       let rightMax = this.getMaxRec(Math.max(start, midPoint + 1), end, node.right);
       if (rightMax > max) {
